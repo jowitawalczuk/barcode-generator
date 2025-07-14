@@ -26,7 +26,28 @@ Chosen coding type: PDF417
 This acronym stands for Portable Data File and 417 indicates every code word consists of 4 bars and 17 modules, which allows to encode large amount of data. The app is going to be developed soon, and the code will need to contain much more than single input String data.
 ---
 ##Set-up
-To run this project, install...
+To run this project, install these libraries and add them to the lib folder
+
+*junit-jupiter-api
+*junit-platform-console
+*core-3.5.3
+*javase-3.5.3
+
+to do that type in command-line (Windows):
+<pre>
+'''curl -L -o junit-jupiter-api-5.10.0.jar https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar
+
+curl -L -o junit-platform-console-standalone-1.10.0.jar https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.10.0/junit-platform-console-standalone-1.10.0.jar
+
+curl -L -o core-3.5.3.jar https://repo1.maven.org/maven2/com/google/zxing/core/3.5.3/core-3.5.3.jar
+
+curl -L -o javase-3.5.3.jar https://repo1.maven.org/maven2/com/google/zxing/javase/3.5.3/javase-3.5.3.jar
+
+'''</pre>
+
+and than compile the program with listed dependencies
+'javac -cp ".;lib/*" <ProgramName>.java'
+
 ---
 ##Functionality
 
@@ -38,9 +59,10 @@ To run this project, install...
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+The workspace contains folders by default, where:
 
 - `src`: the folder to maintain sources
+- `test`: the folder to maintain tests
 - `lib`: the folder to maintain dependencies
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.

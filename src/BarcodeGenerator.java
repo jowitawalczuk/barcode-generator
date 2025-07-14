@@ -10,7 +10,7 @@ import com.google.zxing.pdf417.PDF417Writer;
 /**
  * The {@ccode BarcodeGenerator} class is responsible for generating QR code with coding type PDF417. Vehicle registration number passed as an command-line argument will be encoded as barcode .png image.
  * 
- * <p><strong>Dependencies:</strong></p>ZXing core && JavaSE libraries</p>
+ * <p><strong>Dependencies:</strong></p>ZXing core, JavaSE, JUnit Jupiter libraries</p>
  * 
  * <p><strong>Usage:</strong></p>
  * <pre>{@code
@@ -40,6 +40,8 @@ public class BarcodeGenerator {
             for(int i = 0; i < args.length; i++){
                             
                 String regNum = args[i];
+                System.out.println(args[i]);
+                
                 PDF417Writer barCode = new PDF417Writer();
 
                 try {
