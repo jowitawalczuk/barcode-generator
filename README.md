@@ -5,7 +5,11 @@
 >The goal is to create some-kind-of simplified solution to this problem.
 
 ## Screenshots
-<p style="image-align: center;"> ![exampleImage](codeForReg.png)
+
+<p align="center">
+  <img src="codeForReg.png" alt="Barcode Example" width="300"/>
+</p>
+
 
 ## Table od Contents
   * [About](#barcode-generator)
