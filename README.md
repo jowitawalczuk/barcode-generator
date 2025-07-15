@@ -5,7 +5,7 @@
 >The goal is to create some-kind-of simplified solution to this problem.
 
 ## Screenshots
-<p style="text-align: center;"> ![exampleImage](codeForReg.png)
+<p style="image-align: center;"> ![exampleImage](codeForReg.png)
 
 ## Table od Contents
   * [About](#barcode-generator)
