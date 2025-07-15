@@ -1,12 +1,11 @@
 # Barcode Generator
 
 >Simple bar-code generating app created with Java. 
-
 >The inspiration behind this app was poorly integrated parking and loyalty card system in one of the Warsaw's shopping malls.
 >The goal is to create some-kind-of simplified solution to this problem.
 
 ## Screenshots
-![exampleImage](codeForReg.png)
+<p style="text-align: center;">![exampleImage](codeForReg.png)
 
 ## Table od Contents
   * [About](#barcode-generator)
