@@ -43,7 +43,7 @@ and than compile the program with listed dependencies:
 javac -cp ".;lib/*" <ProgramName>.java
 </pre>
 
-You can download it from [_mvn repository_](https://mvnrepository.com/).
+You can download it from [_mvn repository_](https://mvnrepository.com/) and here [ pgJDBC ](https://jdbc.postgresql.org/download/).
 
 If you are using IntelliJ IDEA IDE adding those into your project takes place as follows:
 -> File -> Project Structure... -> Modules -> Dependencies -> + -> JARs and Directiories -> ...
