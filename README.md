@@ -4,6 +4,8 @@
 >The inspiration behind this app was poorly integrated parking and loyalty card system in one of the Warsaw's shopping malls.
 >The goal is to create some-kind-of simplified solution to this problem.
 
+Status: in progress
+
 ## Screenshots
 
 <p align="center">
