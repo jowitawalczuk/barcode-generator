@@ -26,6 +26,8 @@ In order to make this program to work I used listed below .jar files.
 * junit-platform-console
 * core-3.5.3
 * javase-3.5.3
+* postgresql-42.7.7
+  
 
 <pre>
 curl -L -o junit-jupiter-api-5.10.0.jar https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar
